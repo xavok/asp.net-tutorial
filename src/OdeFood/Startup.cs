@@ -5,6 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using OdeFood.services;
+using Microsoft.AspNetCore.Routing;
+using System;
+
 namespace OdeFood
 {
     public class Startup
@@ -28,6 +31,8 @@ namespace OdeFood
             services.AddMvc();
             services.AddSingleton(provider => Configuration);
             services.AddSingleton<IGreeter, Greeter>();
+            services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,10 +50,10 @@ namespace OdeFood
 
             app.UseFileServer();
 
-            app.UseMvcWithDefaultRoute();
-            app.UseDefaultFiles();
+            app.UseMvc(ConfigureRoutes);
+            //app.UseDefaultFiles();
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
 
 
             app.Run(async (context) =>
@@ -57,5 +62,15 @@ namespace OdeFood
                 await context.Response.WriteAsync(greeting);
             });
         }
+
+        private void ConfigureRoutes(IRouteBuilder routeBuilder)
+        {
+            //home/index
+            routeBuilder.MapRoute("Default", "{controller=Home}/{action=Index}/{id?}");
+
+
+        }
+
+        //
     }
 }

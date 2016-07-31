@@ -1,5 +1,5 @@
---temp-output:c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\obj\Debug\netcoreapp1.0\
---out:c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\bin\Debug\netcoreapp1.0\OdeFood.dll
+--temp-output:C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\bin\Debug\netcoreapp1.0\OdeFood.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -192,8 +192,12 @@
 --reference:C:\Users\Inasyrov\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Inasyrov\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Inasyrov\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\obj\Debug\netcoreapp1.0\OdeFooddotnet-compile.deps.json",OdeFood.deps.json
-c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Program.cs
-c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Startup.cs
-c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Controllers\HomeController.cs
-c:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\services\Greeter.cs
+--resource:"C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\obj\Debug\netcoreapp1.0\OdeFooddotnet-compile.deps.json",OdeFood.deps.json
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\IRestauramtData.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Program.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Startup.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Controllers\AboutController.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Controllers\HomeController.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\Models\Restaurant.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\services\Greeter.cs
+C:\Users\Inasyrov\documents\visual studio 2015\Projects\OdeFood\src\OdeFood\services\RestaurantData.cs
